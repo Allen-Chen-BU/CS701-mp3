@@ -42,7 +42,7 @@ function Root() {
         <Nav></Nav>
         <StyledMain>
           <Routes>
-            <Route path="/" element={<Home/>}/>
+            <Route path="/*" element={<Home/>}/>
             <Route path="/about" element={<AboutMe/>}/>
             <Route path='/edu' element={<Education/>}/>
             <Route path='/exp' element={<Experience/>}/>

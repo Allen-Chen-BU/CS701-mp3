@@ -3,11 +3,8 @@ import styled from "styled-components";
 const StyleContainer = styled.div`
     overflow-x: auto;
     height: 55vh;
-    width: 100vw;
+    width: 100%;
 
-    @media screen and (min-width: 750px) {
-        width: 100%;
-    }
 `;
 
 const StyleTable = styled.table`
@@ -27,9 +24,9 @@ const StyleTable = styled.table`
 
 export default function Education() {
     return(
-        <>
-            <StyleContainer>
-                <StyleTable>
+        <StyleContainer>
+            <StyleTable>
+                <thead>
                     <tr>
                         <th>School</th>
                         <th>Degree</th>
@@ -37,6 +34,8 @@ export default function Education() {
                         <th>GPA</th>
                         <th>Graduation Date</th>
                     </tr>
+                </thead>
+                <tbody>
                     <tr>
                         <td>Boston University</td>
                         <td>Master of Science</td>
@@ -51,8 +50,8 @@ export default function Education() {
                         <td>3.33</td>
                         <td>05/2021</td>
                     </tr>
-                </StyleTable>
-            </StyleContainer>
-        </>
+                </tbody>
+            </StyleTable>
+        </StyleContainer>
     )
 }

@@ -12,6 +12,7 @@ const StyledLi = styled.li`
 export default function Experience() {
     return (
         <>
+            <title>Experience | Resume</title>
             <StyledUl>
                 <StyledLi>
                     <strong>Software Engineer</strong>, 

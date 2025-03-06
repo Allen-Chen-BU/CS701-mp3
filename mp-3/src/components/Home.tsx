@@ -3,6 +3,7 @@ import { Link } from "react-router";
 export default function Home() {
     return (
         <>
+            <title>Home | Resume</title>
             <p>
                 This is a website that include the content of HungHsu(Allen) Chen's Resume.
                 Visit <em><Link to={"/about"}>About Me</Link></em> to find out more about me.

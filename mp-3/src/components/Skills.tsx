@@ -24,35 +24,38 @@ const InnerLi = styled.li`
 
 export default function Skills() {
     return (
-        <SkillContanier>
-            <StyledUl>
-                <StyledLi>
-                    <strong>Software Knowledge</strong>
-                    <InnerUl>
-                        <InnerLi>Java (Spring Boot)</InnerLi>
-                        <InnerLi>Python (Django)</InnerLi>
-                        <InnerLi>PHP (Laravel)</InnerLi>
-                        <InnerLi>JavaScript (Node.js, React)</InnerLi>
-                        <InnerLi>HTML/CSS</InnerLi>
-                        <InnerLi>SQL</InnerLi>
-                        <InnerLi>Git</InnerLi>
-                        <InnerLi>Maven</InnerLi>
-                        <InnerLi>Linux</InnerLi>
-                        <InnerLi>PowerShell</InnerLi>
-                        <InnerLi>Docker</InnerLi>
-                        <InnerLi>Azure</InnerLi>
-                        <InnerLi>Google Cloud</InnerLi>
-                        <InnerLi>R</InnerLi>
-                    </InnerUl>
-                </StyledLi>
-                <StyledLi>
-                    <strong>Other Languages</strong>
-                    <InnerUl>
-                        <InnerLi>Chinese (Mandarin) - Native</InnerLi>
-                        <InnerLi>Japanese - N1 Level</InnerLi>
-                    </InnerUl>
-                </StyledLi>
-            </StyledUl>
-        </SkillContanier>
+        <>
+            <title>Skills | Resume</title>
+            <SkillContanier>
+                <StyledUl>
+                    <StyledLi>
+                        <strong>Software Knowledge</strong>
+                        <InnerUl>
+                            <InnerLi>Java (Spring Boot)</InnerLi>
+                            <InnerLi>Python (Django)</InnerLi>
+                            <InnerLi>PHP (Laravel)</InnerLi>
+                            <InnerLi>JavaScript (Node.js, React)</InnerLi>
+                            <InnerLi>HTML/CSS</InnerLi>
+                            <InnerLi>SQL</InnerLi>
+                            <InnerLi>Git</InnerLi>
+                            <InnerLi>Maven</InnerLi>
+                            <InnerLi>Linux</InnerLi>
+                            <InnerLi>PowerShell</InnerLi>
+                            <InnerLi>Docker</InnerLi>
+                            <InnerLi>Azure</InnerLi>
+                            <InnerLi>Google Cloud</InnerLi>
+                            <InnerLi>R</InnerLi>
+                        </InnerUl>
+                    </StyledLi>
+                    <StyledLi>
+                        <strong>Other Languages</strong>
+                        <InnerUl>
+                            <InnerLi>Chinese (Mandarin) - Native</InnerLi>
+                            <InnerLi>Japanese - N1 Level</InnerLi>
+                        </InnerUl>
+                    </StyledLi>
+                </StyledUl>
+            </SkillContanier>
+        </>
     )
 }

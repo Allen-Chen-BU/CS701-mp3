@@ -91,6 +91,7 @@ export default function Projects() {
 
     return (
         <>
+            <title>Projects | Resume</title>
             <StyledOl>
                 <StyledLi>
                     <strong>Campus Exchange</strong>

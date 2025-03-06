@@ -19,6 +19,7 @@ const Img = styled.img`
 export default function AboutMe() {
     return (
         <>
+            <title>About | Resume</title>
             <p>
                 <Img src={pic} alt={"picture of HungHsu"}/>
                 Hi! I am HungHsu Chen, and I also go by Allen. 

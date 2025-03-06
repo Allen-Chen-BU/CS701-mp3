@@ -24,34 +24,37 @@ const StyleTable = styled.table`
 
 export default function Education() {
     return(
-        <StyleContainer>
-            <StyleTable>
-                <thead>
-                    <tr>
-                        <th>School</th>
-                        <th>Degree</th>
-                        <th>Major</th>
-                        <th>GPA</th>
-                        <th>Graduation Date</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Boston University</td>
-                        <td>Master of Science</td>
-                        <td>Computer Science</td>
-                        <td>3.84</td>
-                        <td>Expected 05/2025</td>
-                    </tr>
-                    <tr>
-                        <td>University of California, Davis</td>
-                        <td>Bachelor of Arts & Sciences</td>
-                        <td>Statistics, Japanese</td>
-                        <td>3.33</td>
-                        <td>05/2021</td>
-                    </tr>
-                </tbody>
-            </StyleTable>
-        </StyleContainer>
+        <>
+            <title>Education | Resume</title>
+            <StyleContainer>
+                <StyleTable>
+                    <thead>
+                        <tr>
+                            <th>School</th>
+                            <th>Degree</th>
+                            <th>Major</th>
+                            <th>GPA</th>
+                            <th>Graduation Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Boston University</td>
+                            <td>Master of Science</td>
+                            <td>Computer Science</td>
+                            <td>3.84</td>
+                            <td>Expected 05/2025</td>
+                        </tr>
+                        <tr>
+                            <td>University of California, Davis</td>
+                            <td>Bachelor of Arts & Sciences</td>
+                            <td>Statistics, Japanese</td>
+                            <td>3.33</td>
+                            <td>05/2021</td>
+                        </tr>
+                    </tbody>
+                </StyleTable>
+            </StyleContainer>
+        </>
     )
 }

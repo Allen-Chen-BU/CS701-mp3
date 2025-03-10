@@ -13,6 +13,9 @@ const StyledUl = styled.ul`
 
     @media screen and (max-width: 750px) {
         text-align: center;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
     }
 `;
 
@@ -39,6 +42,10 @@ const StyledLink = styled(Link)`
     color: white;
     font-weight: bolder;
     text-decoration: none;
+
+    @media screen and (max-width: 750px){
+        font-size: calc(1px + 1.8vw);
+    }
 `;
 
 export default function Nav() {
